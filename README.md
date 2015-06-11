@@ -5,4 +5,6 @@ This project requires that the i2c-dev kernel module be enabled on the Pi for I2
 
 NOTE: The .so and .dll files in the Lib folder *MUST* be copied to the same folder as the excutables built by your projects or the sample projects. This is not automatically done!
 
+This solution was created and is maintained in MonoDevelop 3.0.3.2 (as of now).
+
 Any questions or comments are always welcome.
