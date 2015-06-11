@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2857B73E-F847-4B02-9238-064979017E93}") = "pi_comm_base", "pi_comm_base\pi_comm_base.cproj", "{37ED34CD-A522-462F-93F5-2800C084BA4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PI_Comm_Wrapper", "PI_Comm_Wrapper\PI_Comm_Wrapper.csproj", "{A348A117-35BE-4F49-BEA3-A0DCBA7BB467}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PCA9685Test", "PCA9685Test\PCA9685Test.csproj", "{22D410ED-C855-4BE5-B3E7-FE92D6CC8D51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GPIO_Test", "GPIO_Test\GPIO_Test.csproj", "{34206529-A223-4932-A06F-9F22D66A2EE6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22D410ED-C855-4BE5-B3E7-FE92D6CC8D51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22D410ED-C855-4BE5-B3E7-FE92D6CC8D51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22D410ED-C855-4BE5-B3E7-FE92D6CC8D51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22D410ED-C855-4BE5-B3E7-FE92D6CC8D51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34206529-A223-4932-A06F-9F22D66A2EE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34206529-A223-4932-A06F-9F22D66A2EE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34206529-A223-4932-A06F-9F22D66A2EE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34206529-A223-4932-A06F-9F22D66A2EE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37ED34CD-A522-462F-93F5-2800C084BA4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37ED34CD-A522-462F-93F5-2800C084BA4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37ED34CD-A522-462F-93F5-2800C084BA4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37ED34CD-A522-462F-93F5-2800C084BA4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A348A117-35BE-4F49-BEA3-A0DCBA7BB467}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A348A117-35BE-4F49-BEA3-A0DCBA7BB467}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A348A117-35BE-4F49-BEA3-A0DCBA7BB467}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A348A117-35BE-4F49-BEA3-A0DCBA7BB467}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = GPIO_Test\GPIO_Test.csproj
+	EndGlobalSection
+EndGlobal
